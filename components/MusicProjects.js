@@ -1,6 +1,6 @@
 import styles from '../styles/Projects.module.css';
 
-const background = 'linear-gradient(30deg, rgb(153, 114, 1) 0%, rgb(242, 193, 0) 100%)';
+const background = 'linear-gradient(30deg, rgb(0, 89, 81) 0%, rgb(0, 75, 104) 100%)';
 
 export default function Projects() {
   return (
