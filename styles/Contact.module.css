@@ -11,6 +11,7 @@
 
 .contact h1 {
   padding-bottom: 20px;
+  text-align: center;
 }
 
 .link {
@@ -18,4 +19,21 @@
   font-size: 20px;
   text-decoration: none;
   padding-left: 15px;
+}
+
+@media (max-width: 500px) {
+  .contact h1 {
+    font-size: 2em;
+  }
+  .contact {
+    height: 70vh;
+  }
+  .contact h2 {
+    text-align: center;
+    font-size: 1em;
+    margin-right: 0px;
+  }
+  .link {
+    font-size: 14px;
+  }
 }

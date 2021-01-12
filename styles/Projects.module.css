@@ -11,6 +11,8 @@
 .welcome h1 {
   font-size: 4em;
   padding-top: 2em;
+  text-align: center;
+
 }
 
 .welcome h2 {
@@ -20,6 +22,23 @@
   padding-top: 2vh;
   padding-bottom: 4em;
   margin-right: 47px;
+}
+
+@media (max-width: 500px) {
+  .welcome {
+    height: 70vh;
+  }
+  .welcome h1 {
+    font-size: 2em;
+  }
+  .welcome h2 {
+    text-align: center;
+    font-size: 1em;
+    margin-right: 0px;
+  }
+  .projects h1 {
+    font-size: 2em;
+  }
 }
 
 /* PROJECTS SECTION */
@@ -53,7 +72,6 @@
 .tile {
   display: block;
   position: relative;
-  text-align: center;
   /* max-width: 400px; */
   width: 60vw;
   padding: 2em 0;
@@ -64,6 +82,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 15px;
 }
 
 .thumbnail {
@@ -85,25 +104,23 @@
   text-align: left;
 }
 
-.tile h2 {
-  margin-bottom: 10px;
-}
-
-.tile h2 span {
-  padding-left: 15px;
+.tile span {
   font-size: 16px;
   color: #F7084B;
-
+  margin-left: 15px;
 }
 
 .tile p {
+  font-size: 14px;
   text-align: left;
+  margin-top: 10px;
   margin-bottom: -4px;
   color: white;
 }
 
 .tile audio {
   float: left;
+  margin-top: 15px;
 }
 
 .tile iframe {
@@ -125,4 +142,23 @@
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.d {
+  text-align: left;
+}
+
+@media (max-width: 500px ) {
+  .tile span {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .tile h2 {
+    font-size: 17px;
+  }
+
+  .tile p {
+    font-size: 14px;
+  }
 }

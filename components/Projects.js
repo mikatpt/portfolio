@@ -11,7 +11,8 @@ export default function Projects() {
         <h1>Projects</h1>
         <div className={styles.container}>
           <div className={styles.tile}>
-            <h2>TypeTwo <span><i>a typing app built to track typing speed</i></span></h2>
+            <h2>TypeTwo</h2>
+            <span><b><i>a typing app built to track typing speed</i></b></span>
             <a href="https://typetwo.vercel.app" target="_blank" rel="noreferrer">
               <img className={styles.thumbnail} src="/typetwo.png" alt="" />
             </a>
@@ -19,7 +20,8 @@ export default function Projects() {
           </div>
 
           <div className={styles.tile}>
-            <h2>Homents<span><i>a front-end recreation of a popular real estate site</i></span></h2>
+            <h2>Homents</h2>
+            <span><b><i>a front-end recreation of a popular real estate site</i></b></span>
             <a href="http://52.90.133.187:3000/" target="_blank" rel="noreferrer">
               <img id="personal-site" className={styles.thumbnail} src="/homents.png" alt="a trumpet" />
             </a>
@@ -27,7 +29,8 @@ export default function Projects() {
 
           </div>
           <div className={styles.tile}>
-            <h2>CryptoCurrency Tracker<span><i>a simple 30 day currency tracker</i></span></h2>
+            <h2>CryptoCurrency Tracker</h2>
+            <span><b><i>a simple 30 day currency tracker</i></b></span>
             <a href="http://52.90.133.187:3005/" target="_blank" rel="noreferrer">
               <img className={styles.thumbnail} id="image" src="/crypto.png" alt="" />
             </a>

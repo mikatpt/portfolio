@@ -13,7 +13,9 @@ export default function Projects() {
         <h1>Musical Projects</h1>
         <div className={styles.container}>
           <div className={styles.tile}>
-            <h2>Prélude à Suite Bergamasque<span><i>claude debussy; arr. chen</i></span></h2>
+            <h2>Prélude à Suite Bergamasque</h2>
+            <span className={styles.d}><b><i>claude debussy; arr. chen</i></b></span>
+            <br />
             <audio controls="controls">
               <track kind="captions" />
               <source src="http://docs.google.com/uc?export=open&id=14woaVrNhTcFC_CMhcfg7ygzxmp4eeEi1" />
@@ -21,7 +23,8 @@ export default function Projects() {
           </div>
 
           <div className={styles.tile}>
-            <h2>Presentation of the Rose<span><i>richard strauss; arr. chen</i></span></h2>
+            <h2>Presentation of the Rose</h2>
+            <span className={styles.d}><b><i>richard strauss; arr. chen</i></b></span>
             <p>Conducted by Ben Manis, feat. Michael Chen and Jon Kaplan</p>
             <br />
             <audio controls="controls">
@@ -31,22 +34,24 @@ export default function Projects() {
             <br /><br />
           </div>
 
-          <div className={styles.tile} style={{ minHeight: '80vh' }}>
-            <h2>Shostakovich String Quartet No.3<span><i>for five brass instruments</i></span></h2>
+          <div className={styles.tile}>
+            <h2>Shostakovich String Quartet 3</h2>
+            <span className={styles.d}><b><i>for five brass instruments</i></b></span>
             <div className={styles.videowrapper}>
 
               <iframe title="shostakovich" width="100%" height="100%" src="https://www.youtube.com/embed/iFNL3Me1adw" frameBorder="0" allowFullScreen />
             </div>
           </div>
 
-          <div className={styles.tile} style={{ minHeight: '80vh' }}>
-            <h2>Jukebox Eolian<span><i>a public art piece in seven installments</i></span></h2>
+          <div className={styles.tile}>
+            <h2>Jukebox Eolian</h2>
+            <span className={styles.d}><b><i>a public art piece in seven installments</i></b></span>
             <div className={styles.videowrapper}>
               <iframe title="eolian" width="100%" height="100%" src="https://www.youtube.com/embed/QoSX9bOo0rM" frameBorder="0" allowFullScreen />
             </div>
           </div>
 
-          <div className={styles.tile} style={{ minHeight: '80vh' }}>
+          <div className={styles.tile}>
 
             <div className={styles.videowrapper}>
               <iframe title="eolian-cont." width="100%" height="100%" src="https://www.youtube.com/embed/ihZJZqe9Z9Y" frameBorder="0" allowFullScreen />

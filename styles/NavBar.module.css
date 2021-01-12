@@ -69,14 +69,17 @@
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 500px) {
   .header {
-    justify-content: center;
+    height: 60px;
   }
 
-  .navbar {
-    margin: 0;
-    justify-self: center;
-    display: none;
+  .title {
+    font-size: 16px;
+  }
+
+  .navLink {
+    padding: 8px 10px;
+    font-size: 13px;
   }
 }
