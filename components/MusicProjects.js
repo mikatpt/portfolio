@@ -36,7 +36,7 @@ export default function Projects() {
 
           <div className={styles.tile}>
             <h2>Shostakovich String Quartet 3</h2>
-            <span className={styles.d}><b><i>for five brass instruments</i></b></span>
+            <span className={styles.d}><b><i>for five brass instruments; arr.chen</i></b></span>
             <div className={styles.videowrapper}>
 
               <iframe title="shostakovich" width="100%" height="100%" src="https://www.youtube.com/embed/iFNL3Me1adw" frameBorder="0" allowFullScreen />
