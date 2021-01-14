@@ -74,7 +74,7 @@
   position: relative;
   /* max-width: 400px; */
   width: 60vw;
-  padding: 2em 0;
+  padding: 2em 0 1em;
 }
 
 .tile a {
@@ -121,9 +121,11 @@
 .tile audio {
   float: left;
   margin-top: 15px;
+  width: 400px;
 }
 
 .tile iframe {
+  margin-top: 10px;
   width: 85%;
 }
 
@@ -149,8 +151,11 @@
 }
 
 @media (max-width: 500px ) {
+  .tile {
+    width: 100%;
+  }
   .tile span {
-    font-size: 12px;
+    font-size: 11px;
     text-align: left;
   }
 
@@ -160,5 +165,9 @@
 
   .tile p {
     font-size: 14px;
+  }
+
+  .tile audio {
+    width: 85vw;
   }
 }

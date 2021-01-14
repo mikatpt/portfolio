@@ -18,7 +18,8 @@ export default function Projects() {
             <br />
             <audio controls="controls">
               <track kind="captions" />
-              <source src="http://docs.google.com/uc?export=open&id=14woaVrNhTcFC_CMhcfg7ygzxmp4eeEi1" />
+              <source src="https://dl.dropbox.com/s/uwobef6h0p0jmnv/01%20Pr%C3%A9lude%20%C3%A0%20Suite%20Bergamasque.mp3" />
+              <source src="http://docs.google.com/uc?export=open&id=1508seWbmY7eLtR4AVMyeJbPHCa9vT7mS" />
             </audio>
           </div>
 
@@ -29,9 +30,8 @@ export default function Projects() {
             <br />
             <audio controls="controls">
               <track kind="captions" />
-              <source src="http://docs.google.com/uc?export=open&id=1wVsSD8wgdTzUW1nE915myAM5xHT6FUEv" />
+              <source src="http://docs.google.com/uc?export=open&id=1wVsSD8wgdTzUW1nE915myAM5xHT6FUEv" type="audio/mp3" />
             </audio>
-            <br /><br />
           </div>
 
           <div className={styles.tile}>
