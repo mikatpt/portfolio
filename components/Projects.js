@@ -22,7 +22,7 @@ export default function Projects() {
           <div className={styles.tile}>
             <h2>Homents</h2>
             <span><b><i>a front-end recreation of a popular real estate site</i></b></span>
-            <a href="http://52.90.133.187:3000/" target="_blank" rel="noreferrer">
+            <a href="http://54.87.249.219:3000/" target="_blank" rel="noreferrer">
               <img id="personal-site" className={styles.thumbnail} src="/homents.png" alt="a trumpet" />
             </a>
             <p>NextJS | React Hooks | PostgreSQL | D3 | EC2</p>
@@ -31,7 +31,7 @@ export default function Projects() {
           <div className={styles.tile}>
             <h2>CryptoCurrency Tracker</h2>
             <span><b><i>a simple 30 day currency tracker</i></b></span>
-            <a href="http://52.90.133.187:3005/" target="_blank" rel="noreferrer">
+            <a href="http://54.87.249.219:3005/" target="_blank" rel="noreferrer">
               <img className={styles.thumbnail} id="image" src="/crypto.png" alt="" />
             </a>
             <p>React | Express | D3 | Redis</p>
